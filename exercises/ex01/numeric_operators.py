@@ -1,9 +1,9 @@
-"""numeric operators exercise"""
+"""The numeric operators exercise."""
 
-__author__ : str = "730527166"
+__author__: str = "730527166"
 
-left_hand_side : int = int(input("Left-hand side: "))
-right_hand_side : int= int(input("Right-hand side: "))
+left_hand_side: int = int(input("Left-hand side: "))
+right_hand_side: int = int(input("Right-hand side: "))
 
 exponent = left_hand_side ** right_hand_side 
 print(str(left_hand_side) + " ** " + str(right_hand_side) + " is " + str(exponent))
@@ -16,4 +16,3 @@ print(str(left_hand_side) + " // " + str(right_hand_side) + " is " + str(int_div
 
 mod = left_hand_side % right_hand_side
 print(str(left_hand_side) + " % " + str(right_hand_side) + " is " + str(mod))
-
